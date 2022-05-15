@@ -81,4 +81,8 @@ public class Post extends AuditModel {
 	public void setContent(String content) {
 		this.content = content;
 	}
+	
+	public void setUser(User user) {
+		this.user = user;
+	}
 }
