@@ -11,6 +11,8 @@ import org.hibernate.annotations.OnDeleteAction;
 @Entity
 @Table(name = "comments")
 public class Comment extends AuditModel {
+	private static final long serialVersionUID = 1L;
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
